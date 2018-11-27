@@ -1,0 +1,272 @@
+
+body{
+	background-color: #f2f2ff;
+
+}
+
+#puzzle{
+	width: 600px;
+	height: 400px;
+	margin: 40px;
+	border: 4px solid black;
+	position: absolute;
+}
+
+img.topleft {
+	position: absolute;
+}
+
+img[src*="img/img-2.png"] {
+
+	position: absolute;
+	top: 0;
+	left: 51px;
+}
+
+img[src*='img/img-3.png'] {
+	position: absolute;
+	top: 0;
+	left: 133px;
+}
+
+img[src*='img/img-4.png'] {
+	position: absolute;
+	top: 0;
+	left: 190px;
+}
+
+img[src*='img/img-5.png'] {
+	position: absolute;
+	top: 0;
+	left: 240px;
+}
+
+img[src*='img/img-6.png'] {
+	position: absolute;
+	top: 0;
+	left: 314px;
+}
+
+img[src*='img/img-7.png'] {
+	position: absolute;
+	top: 0;
+	left: 378px;
+}
+
+img[src*='img/img-8.png'] {
+	position: absolute;
+	top: 0;
+	left: 447px;
+}
+
+img[src*='img/img-9.png'] {
+	position: absolute;
+	top: 0;
+	left: 513px;
+}
+
+img.topright {
+	position: absolute;
+	top: 0px;
+	left: 564px;
+}
+img[src*='img/img-11.png'] {
+	position: absolute;
+	top: 51px;
+	left: 0px;
+}
+img[src*='img/img-12.png'] {
+	position: absolute;
+	top: 83px;
+	left: 51px;
+}
+img[src*='img/img-13.png'] {
+	position: absolute;
+	top: 66px;
+	left: 133px;
+}
+img[src*='img/img-14.png'] {
+	position: absolute;
+	top: 92px;
+	left: 190px;
+}
+img[src*='img/img-15.png'] {
+	position: absolute;
+	top: 64px;
+	left: 240px;
+}
+img[src*='img/img-16.png'] {
+	position: absolute;
+	top: 110px;
+	left: 314px;
+}
+img[src*='img/img-17.png'] {
+	position: absolute;
+	top: 126px;
+	left: 378px;
+}
+img[src*='img/img-18.png'] {
+	position: absolute;
+	top: 121px;
+	left: 447px;
+}
+img[src*='img/img-19.png'] {
+	position: absolute;
+	top: 150px;
+	left: 513px;
+}
+img[src*='img/img-20.png'] {
+	position: absolute;
+	top: 129px;
+	left: 564px;
+}
+img[src*='img/img-21.png'] {
+	position: absolute;
+	top: 161px;
+	left: 0;
+}
+img[src*='img/img-22.png'] {
+	position: absolute;
+	top: 187px;
+	left: 51px;
+}
+img[src*='img/img-23.png'] {
+	position: absolute;
+	top: 198px;
+	left: 133px;
+}
+img[src*='img/img-24.png'] {
+	position: absolute;
+	top: 208px;
+	left: 190px;
+}
+img[src*='img/img-25.png'] {
+	position: absolute;
+	top: 183px;
+	left: 240px;
+}
+img[src*='img/img-26.png'] {
+	position: absolute;
+	top: 200px;
+	left: 314px;
+}
+img[src*='img/img-27.png'] {
+	position: absolute;
+	top: 189px;
+	left: 378px;
+}
+img[src*='img/img-28.png'] {
+	position: absolute;
+	top: 192px;
+	left: 447px;
+}
+img[src*='img/img-29.png'] {
+	position: absolute;
+	top: 199px;
+	left: 513px;
+}
+img[src*='img/img-30.png'] {
+	position: absolute;
+	top: 189px;
+	left: 564px;
+}
+img[src*='img/img-31.png'] {
+	position: absolute;
+	top: 236px;
+	left: 0px;
+}
+img[src*='img/img-32.png'] {
+	position: absolute;
+	top: 236px;
+	left: 76px;
+}
+img[src*='img/img-33.png'] {
+	position: absolute;
+	top: 236px;
+	left: 127px;
+}
+img[src*='img/img-34.png'] {
+	position: absolute;
+	top: 236px;
+	left: 182px;
+}
+img[src*='img/img-35.png'] {
+	position: absolute;
+	top: 236px;
+	left: 250px;
+}
+img[src*='img/img-36.png'] {
+	position: absolute;
+	top: 236px;
+	left: 304px;
+}
+img[src*='img/img-37.png'] {
+	position: absolute;
+	top: 236px;
+	left: 365px;
+}
+img[src*='img/img-38.png'] {
+	position: absolute;
+	top: 236px;
+	left: 459px;
+}
+img[src*='img/img-39.png'] {
+	position: absolute;
+	top: 236px;
+	left: 503px;
+}
+img[src*='img/img-40.png'] {
+	position: absolute;
+	top: 236px;
+	left: 543px;
+}
+img[src*='img/img-41.png'] {
+	position: absolute;
+	top: 308px;
+	left: 0px;
+}
+img[src='img/img-42.png'] {
+  position: absolute;
+  top: 340px;
+  left: 76px;
+}
+img[src='img/img-43.png'] {
+  position: absolute;
+ 	top: 353px;
+  left: 127px;
+    }
+img[src='img/img-44.png'] {
+  position: absolute;
+  top: 333px;
+  left: 182px;
+  }
+img[src='img/img-45.png'] {
+	position: absolute;
+  top: 354px;
+  left: 250px;
+}
+img[src='img/img-46.png'] {
+	position: absolute;
+  top: 334px;
+  left: 304px;
+}
+img[src='img/img-47.png'] {
+  position: absolute;
+  top: 325px;
+  left: 365px;
+}
+img[src='img/img-48.png'] {
+  position: absolute;
+	top: 352px;
+  left: 459px;
+}
+img[src='img/img-49.png'] {
+  position: absolute;
+  top: 371px;
+  left: 503px;
+}
+img[src*='img/img-50.png'] {
+  position: absolute;
+  top: 340px;
+  left: 543px;
+}

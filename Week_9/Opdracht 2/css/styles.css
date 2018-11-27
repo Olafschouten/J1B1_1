@@ -1,0 +1,345 @@
+body{
+    font-family: Archivo;
+    width: 1000px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+#menu{
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    width: 950px;
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    grid-row: 2 / 2;
+    grid-column: 1 / 4;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+    width: 1000px;
+    margin: auto;
+}
+
+#logo {
+    padding: 20px;
+    grid-row: 1 / 1;
+    grid-column: 1 / 4;
+}
+
+.header {
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    min-height: 575px;
+    height: 50%;
+    z-index: -1;
+}
+
+#ribbon {
+    position: relative;
+    width: 1903px;
+    height: 140px;
+    background-color: #ffe718;
+    right: 0;
+    left: -50%;
+    bottom: 350px;
+}
+
+#text11 {
+    margin-left: 18%;
+    display: inline-block;
+    margin-top: 55px;
+    grid-row: 3 / 3;
+    grid-column: 1 / 4;
+}
+
+span.a {
+    display: inline;
+    padding: 5px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+span.b {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#mw {
+    position: relative;
+    float: right;
+    background: white;
+    padding: 20px;
+    margin-right: 25%;
+    margin-top: 35px;
+    font-size: 12px;
+}
+
+#mw:hover {
+    background-color: #222931;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222931;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffe718;
+    color: #222931;
+}
+
+.text {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+    /* _____________ Afbeelding 1 _____________ */
+.containertest {
+    position: relative;
+    width: 300px;
+    top: 60px;
+}
+  
+.image {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+  
+.overlaytest {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(71, 71, 71, 0.89);
+}
+  
+.containertest:hover .overlaytest {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    /* _____________ Afbeelding 2 _____________ */
+.containertest2 {
+    position: relative;
+    width: 300px;
+    bottom: 160px;
+    left: 340px;
+}
+  
+.image2 {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+  
+.overlaytest2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(71, 71, 71, 0.89);
+}
+  
+.containertest2:hover .overlaytest2 {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    /* _____________ Afbeelding 3 _____________ */
+.containertest3 {
+    position: relative;
+    width: 300px;
+    bottom: 380px;
+    left: 680px;
+}
+      
+.image3 {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+      
+.overlaytest3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(71, 71, 71, 0.89);
+}
+      
+.containertest3:hover .overlaytest3 {
+    opacity: 1;
+}
+      
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#upfooter {
+    position: relative;
+    width: 1903px;
+    left: -50%;
+    right: 0px;
+    bottom: 230px;
+    z-index: 1;
+}
+
+
+    /* _____________ Icons _____________ */
+#icon1, #icon2, #icon3 {
+    font-size: 22px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+#l {
+    float: left;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+#icon1 {
+    position: relative;
+    width: 300px;
+    height: 120px;
+    left: 0px;
+    bottom: 290px;
+    background-color: #ffe718;
+    color: #222931;
+    z-index: 2;
+}
+
+#icon2 {
+    position: relative;
+    width: 300px;
+    height: 120px;
+    left: 350px;
+    bottom: 410px;
+    background-color: #ffe718;
+    color: #222931;
+    z-index: 2;
+}
+
+#icon2:hover {
+    background: #222931;
+    color: white;
+}
+
+#icon3 {
+    position: relative;
+    width: 300px;
+    height: 120px;
+    left: 700px;
+    bottom: 530px;
+    background-color: #ffe718;
+    color: #222931;
+    z-index: 2; 
+}
+
+#icontext1 {
+    float: right;
+}
+
+#text2left {
+    position: relative;
+    bottom: 500px;
+    max-width: 500px;
+    float: left;
+}
+
+#text2right {
+    position: relative;
+    bottom: 500px;
+    float: right;
+    min-width: 150px;
+}
+
+#text2right > i {
+    float: left;
+    padding-right: 10px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #222931;
+    color: white;
+    text-align: right;
+    height: 8%;
+}

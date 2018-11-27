@@ -1,0 +1,92 @@
+<html>
+
+<body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="robot-arm.js"></script>
+    <script>
+        var canvas = document.getElementById("canvas");
+        var robotArm = new RobotArm(canvas);
+        robotArm.loadLevel("exercise 12");
+
+        for (a = 0; a < 9;) {
+            robotArm.grab();
+            if (robotArm.scan() == "red") {
+                for (i = 9; i > a; i--) {
+                    robotArm.moveRight();
+                }
+                robotArm.drop();
+                for (j = 8; j > a; j--) {
+                    robotArm.moveLeft();
+                }
+            } else {
+                robotArm.drop();
+                robotArm.moveRight();
+            } a++;
+        }
+
+        robotArm.run();
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  
+                    
+            
+            // for (a = 0; a < 9;) { 
+            //     robotArm.grab();
+            // if (robotArm.scan() == 'red') {
+            //     for (i = 9; i > a; i--){    //gaat 9 keer naar rechts
+            //         robotArm.moveRight();        
+            //     } 
+            //     robotArm.drop();
+            //     for (j = 8; j > a; j--){    //
+            //         robotArm.moveLeft();
+            //     }
+            //     }else {                     //
+            //         robotArm.drop();
+            //         robotArm.moveRight();
+            //     }a++;
+            //     }-->
