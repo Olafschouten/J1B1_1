@@ -74,7 +74,7 @@ html, body {
     display: block;
 }
 
-#container {
+.container {
     display: grid;
     grid-template-columns: 325px 325px 325px;
     width: 1000px;
@@ -274,21 +274,26 @@ span.b {
     z-index: 2;
 }
 
-#icon2:hover {
-    background: #222931;
+
+#icon1:hover .dealsIcon, #icon2:hover .dienst-link, #icon3:hover .contactIcon{
     color: white;
 }
 
-#icon2 a:hover {
-    color: white;
+#icon1:hover, #icon2:hover, #icon3:hover{
+    background-color: #222931;
 }
 
 .dienst-link {
     grid-row: 2;
     grid-column: 1/4;
     text-decoration: none;
-    color: black;
+    color: #222931;
     z-index: 2;
+}
+
+.dealsIcon {
+    text-decoration: none;
+    color: #222931;
 }
 
 #icon3 {
@@ -308,6 +313,10 @@ span.b {
 #deals p, #diensten p, #contact p{
     line-height: 0px;
 }
+
+
+
+
 
 #text2 {
     grid-row: 3/3;
@@ -378,7 +387,6 @@ footer {
     position: absolute;
     top: 100%;
     left: 50%;
-    margin-left: -60px;
     z-index: 1;
 }
 
